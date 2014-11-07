@@ -1,0 +1,15 @@
+.arrow {
+	animation: arrow-bob 0.85s ease-in-out infinite alternate;
+	-webkit-animation: arrow-bob 0.85s ease-in-out infinite alternate;
+	-moz-animation: arrow-bob 0.85s ease-in-out infinite alternate;
+	-ms-animation: arrow-bob 0.85s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes arrow-bob {
+	100% {transform: translate(0px, 30px)};
+}
+
+@-moz-keyframes arrow-bob {
+	100% {transform: translate(0px, 30px)};
+}
