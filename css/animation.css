@@ -13,3 +13,8 @@
 @-moz-keyframes arrow-bob {
 	100% {transform: translate(0px, 30px)};
 }
+
+@-ms-keyframes arrow-bob {
+	100% {transform: translate(0px, 30px)};
+}
+
